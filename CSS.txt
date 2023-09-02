@@ -1,0 +1,57 @@
+Introduction to CSS
+    -> Cascading Style Sheets
+    -> Make webpages more attractive
+    -> easy to learn
+    -> single style sheet can be used for multiple HTML files
+    -> global web standards
+    ->multiple device compatibility
+    ->latest version CSS3
+
+Ways to style HTML files
+
+    1. Inline Styling - using style attribute inside opening tag
+
+    2. Internal Styling - using style tag inside the head tag
+
+    3. External Styling - using link tag inside head tag. we will create separate css file and connect with HTML doc using link tag.
+
+    internal < external < inline Styling priority
+
+Synatx for Styling
+
+selectors
+{
+    property : value;
+}
+
+Types of selectors
+    1. Element selectors [tagName]
+    2. Id selectors [#idName]
+    3. class selectors [.className]
+    4. group selectors [tagName, tagName]
+    5. universal selectors [*]
+
+
+
+Precedence 
+<link />
+<style>
+
+Internal styling has high Precedence 
+
+<style>
+<link />
+
+External styling has high Precedence
+
+
+Precedence of selectors 
+
+1. Id selectors
+2. class selectors
+3. Element selector | Group selectors
+4. Universal selector 
+
+property: values;
+
+1. color

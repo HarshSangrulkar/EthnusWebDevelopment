@@ -1,0 +1,180 @@
+MERN 
+
+MongoDB – Database
+ExpressJS – Framework which is used to work with server side programming
+ReactJS – Client side frameworks
+NodeJS – Runtime Environment
+
+Github - create repositories and deploying   on internet
+
+DAY - 1
+29th August 2023
+
+Version of HTML
+    1. HTML 1.0 -> 1990
+    2. HTML 2.0 -> 1995
+    3. HTML 3.0 -> 1997
+    4. HTML 4.01 -> 1999 [Major version]
+    5. HTML 5 -> 2012 [Latest version]
+
+    Usage of HTML -> develop static webpages
+
+    Webpages -> single HTML file
+    Website -> collection of website
+
+    static webpages -> attractive webpages -> CSS
+    Bootstrap is a CSS framework - predefined styles
+
+    dynamic webpages - Javascript
+
+    HTML - not a programming language but a markup language
+
+Structure of HTML
+
+<!DOCTYPE html>   --Version of HTML
+<html>
+    <head> 
+        -- info about the webpage--
+        <meta> -- Additional info about webpage
+        <title>Title of the webpage</title>
+    </head>
+    <body>
+
+        --content of the webpage--
+        
+    </body>
+</html>
+
+html elements
+<tagName attrName-"attrValue"> Content </tagName>
+
+heading tag - h1,h2,h3,h4,h5,6
+paragraph - p
+bold - b
+itlaic - i
+underline - u
+superscript - sup
+subscript - sub
+
+
+Steps to run the html file
+1. right click on file
+2. copy path
+3. open browser
+4. paste in url
+
+void elements- empty elements
+hr - hotizontal ruler
+br - break
+
+big - increment font size by 1
+small - decrement font size by 1
+code - change the font face
+del - line striking through text
+cite - non blocking tag with itlaic styling
+address - blocking tag with italic styling
+
+abbr - abbreviation tag - npn blocking tag
+
+ol - Ordered List [type = A|a|1|I|i] start[numbers]
+ul - Unordered List [type = disc|circle|square]
+li - list items
+
+dl - definition list
+dt - definition term
+dd - data definition
+
+a - Anchor tag [Navigate from one page to another] 
+Attributes: href="url" target= _blank[new tab] | _self [same frame]
+    1. Text Link 
+    2. Image Link
+    3. Bookmark Link
+    4. Email Link
+
+img - Image [src="imagePath" alt="AlternateText" height="" width=""]
+
+table [border= 0 | 1] [bordercolor=""] [bgcolor=""] [height="" width=""] 
+[cellpadding(space between the border of the cell and content of the cell)]
+[cellspacing(space between two cells)]
+
+caption 
+    tr
+    td
+    th 
+
+
+DAY - 2 
+31st August 2023
+
+form 
+    label
+    SINGLE LINE INPUT
+        Attributes
+            1. text
+            2. numbers
+            3. password
+            4. tel
+            5. url
+            6. email
+            7. search
+            8. checkbox
+            9. radio - name attribute is must for radio button
+            10. button
+            11. submit
+            12. reset - clear the form
+            13. file
+            14. range
+            15. color - select color
+            16. date
+            17. week
+            18. month
+            19. datetime - locale
+            20. time
+
+
+MUTLILINE INPUT
+textarea
+    1. rows - height of textarea
+    2. columns - width of textarea
+
+DropDown
+select
+    option
+
+radio
+<label for="">Gender</label>
+        <input type="radio" name="gen"/>Male
+        <input type="radio" name="gen"/>Female
+
+Semantic Tag -> Meaning to user and browser
+    1. header
+    2. footer
+    3. navigate
+    4. main
+    5. aside
+    6. section
+    7. article
+    
+
+
+Non-Sematic tag - Not understandable for user but understandable for browser 
+div -> blocking 
+span -> non-blocking 
+
+Layout
+            -----------------------------
+            |       Header               |
+            -----------------------------
+            |       Nav                  |
+            -----------------------------
+            |     |                      |
+            |     |                      |
+            |     |                      |
+   main     |aside|       section        |
+            |     |                      |
+            |     |                      |
+            |     |                      |
+            |     |                      |
+            ------------------------------
+            |      Footer                |
+            ------------------------------
