@@ -1,0 +1,9 @@
+table{
+    width: 60%;
+    background-color: #75DEDF;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+  }

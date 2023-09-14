@@ -1,0 +1,14 @@
+
+
+input{
+    width: auto;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /* padding: 12px 12px 12px 0; */
+    display: inline-block;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }

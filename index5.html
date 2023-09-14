@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Local file -->
+    <!-- <link href="C:/Users/SHANKAR NARAYAN/Downloads/bootstrap-5.0.2-dist (1)/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!--background color is black, center in alignment, green in color -->
+    <p class="text-center text-success bg-dark">Hello</p> 
+
+    <!-- margin in left and right, background color is green, center in alignment  -->
+    <p class="container bg-success text-center">Box 1</p> 
+
+    <!-- 100% width, background color is yellow, center in alignment  -->
+    <p class="container-fluid bg-warning text-center">Box 2</p> 
+
+    <!-- >=lg[992px] container | <lg container-fluid(100% width), background color is red, center in alignment  -->
+    <!-- xs, sm, md [0-991] = container-fluid 
+        lg, xl, xxl [992 and above] =  container -->
+    <p class="container-lg bg-danger text-center">Box 3</p>
+
+    <div class="row">
+        <!-- col-1 will occupy 1 column out of 12 -->
+        <div class="col-1 bg-warning text-center">col 1</div>
+        <div class="col-1 bg-danger text-center">col 2</div>
+        <div class="col-1 bg-warning text-center">col 3</div>
+        <div class="col-1 bg-danger text-center">col 4</div>
+        <div class="col-1 bg-warning text-center">col 5</div>
+        <div class="col-1 bg-danger text-center">col 6</div>
+        <div class="col-1 bg-warning text-center">col 7</div>
+        <div class="col-1 bg-danger text-center">col 8</div>
+        <div class="col-1 bg-warning text-center">col 9</div>
+        <div class="col-1 bg-danger text-center">col 10</div>
+        <div class="col-1 bg-warning text-center">col 11</div>
+        <div class="col-1 bg-danger text-center">col 12</div>
+    </div>
+
+    <br />
+    <div class="row">
+        <!-- col-3 will occupy 3 column out of 12 -->
+        <div class="col-3 bg-warning text-center">col 1</div>
+        <div class="col-3 bg-danger text-center">col 2</div>
+        <div class="col-3 bg-warning text-center">col 3</div>
+        <div class="col-3 bg-danger text-center">col 4</div>
+    </div>
+
+    <br />
+    <div class="row">
+        <!-- col-2 will occupy 2 column out of 12 -->
+        <div class="col-2 bg-warning text-center">col 1</div>
+        <!-- col-8 will occupy 8 column out of 10 -->
+        <div class="col-8 bg-danger text-center">col 2</div>
+        <!-- col-2 will occupy 2 column out of 2 -->
+        <div class="col-2 bg-warning text-center">col 3</div>
+    </div>
+
+    <br />
+    <div class="row">
+        <!-- col-2 will occupy 2 column out of 12 -->
+        <div class="col-2 bg-warning text-center">col 1</div>
+        <!-- col-8 will occupy 8 column out of 10 -->
+        <div class="col-8 bg-danger text-center">col 2</div>
+        <!-- col-4 will occupy 4 column out of 12 -->
+        <div class="col-4 bg-warning text-center">col 3</div>
+    </div>
+
+    <br />
+    <div class="row">
+        <!-- 
+            If it is a small device then col-12
+            If it is medium decive then col-4
+            If it is lg or greater than larger device(i.e xl,xxl) then col-1
+         -->
+        <div class="col-sm-12 col-md-4 col-lg-1 bg-warning text-center">Box 1</div>
+        <div class="col-sm-12 col-md-4 col-lg-10 bg-danger text-center">Box 2</div>
+        <div class="col-sm-12 col-md-4 col-lg-1 bg-warning text-center">Box 3</div>
+    </div>
+
+    <br />
+    <div>
+        <h1>Typography</h1>
+        <p class="h1">Header 1</p>
+        <p class="h2">Header 2</p>
+        <p class="h3">Header 3</p>
+        <p class="h4">Header 4</p>
+        <p class="h5">Header 5</p>
+        <p class="h6">Header 6</p>
+        <br />
+        <p class="display-1">Display-1</p>
+        <p class="display-2">Display-2</p>
+        <p class="display-3">Display-3</p>
+        <p class="display-4">Display-4</p>
+        <p class="display-5">Display-5</p>
+        <p class="display-6">Display-6</p>
+        <br />
+        <p>Normal paragraph</p>
+        <p class="lead">Lead paragraph is different from normal</p>
+        <p class="mark">Important points</p>
+        <p class="text-decoration-underline">This is underlined</p>
+        <p class="blockquote">Believe to achieve</p>
+        <p class="blockquote-footer text-transform-uppercase text-end">Harsh Sangrulkar</p>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+.box{
+    margin-top: 150px;
+    margin-left: 200px;
+    
+    width: 75%;
+    background-color: rgb(235, 235, 242);
+    border: 1.7px solid black;
+    
+}
+
+.content{
+    margin: 10px 0;
+    text-align: left;
+    padding: 7px 15px;
+}
+
+.mail{
+    display:inline-block;
+    background-color: white;
+}

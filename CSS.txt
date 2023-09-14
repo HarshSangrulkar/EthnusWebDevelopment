@@ -52,6 +52,70 @@ Precedence of selectors
 3. Element selector | Group selectors
 4. Universal selector 
 
-property: values;
 
-1. color
+property: values;
+    1. color: colorName | rgb(0-255) | rgba(0-255, 0-1) | hex(0-9 a-f)
+            Eg: rgb(255,0,0)=>red | #0f0 => green | rgba(0,0,255,0.5) => blue of 0.5 transparency
+    2. text-align: left | right | center | justify
+    3. text-decoration-line: underline | overline | line-through
+    4. text-decoration-style: solid | double | dashed | dotted | wavy | none
+    5. text-decoration-color:  colorName | rgb(0-255) | rgba(0-255, 0-1) | hex(0-9 a-f)
+    6. text-decoration-thickness: measurements in px, in, cm, %, vh, vw, em 
+    7. text-decoration: shorthand property
+    8. text-indent: measurements
+    9. letter-spacing: measurements
+    10. word-spacing: measurements
+    11. line-height: measurements
+    12. white-space: pre 
+    13. text-transform: uppercase | lowercase | captailize
+
+Font property
+    1. font-family: Arial | Roboto | "Times New Roman"
+    2. font-style: italic
+    3. font-weight: 100-900 | bold | bolder | lighter
+    4. font-size: measurements
+    5. font-variant: small-caps
+
+Background property 
+    1. background-color: colorName
+    2. background-image: url("imagePath")
+    3. background-repeat: repeat | no-repeat | repeat-x | repeat-y
+    4. background-attachement: scroll | fixed 
+    5. background-position: top | bottom | center | left | right 
+    6. background-size: cover
+
+Cursor property 
+    1. cursor: zoom-in | zoom-out | pointer | ns-resize
+
+Box model
+
+     ---------------------------------
+     |              mt               |
+     |   -----------bt-----------    |      
+     |   |          pt          |    |
+     |   |        ---------     |    |
+     |ml |     pl |content| pr  | mr |
+     |   |        ---------     |    |    
+     |   |           pb         |    |  
+     |   -----------bb-----------    |
+     |              mb               |
+     ---------------------------------
+
+<h1>Hello</h1>
+
+     ---------------------------------
+     |              mt               |
+     |   -----------bt-----------    |      
+     |   |          pt          |    |
+     |   |        ---------     |    |
+     |ml |     pl |hello  | pr  | mr |
+     |   |        ---------     |    |    
+     |   |           pb         |    |  
+     |   -----------bb-----------    |
+     |              mb               |
+     ---------------------------------
+
+Border property
+    1. border-width: measurement 
+    2. border-color: colorName 
+    3. border: shorthand property 

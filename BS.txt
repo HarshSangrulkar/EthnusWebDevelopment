@@ -1,0 +1,111 @@
+Bootstrap 
+    -> CSS framework 
+    -> Twitter
+    -> Resposive web design
+    -> Mobile first approach
+
+Ways to use bootstrap [bootstrap.css]
+1. Internet
+    CDN -> 
+2. Your local device
+    Downloading
+    npm 
+
+class name 
+
+1. primary -> blue
+2. secondary -> gray
+3. success -> green
+4. warning -> yellow
+5. danger -> red
+6. info -> skyblue
+7. light -> white 
+8. dark -> black
+
+9. bg -> background
+10. text -> content 
+
+11. bg-[colors]
+12. text-[colors]
+13. text-center -> alignment in center horizontally
+14. text-start -> alignment in left 
+15. text-end -> alignment in right
+
+16. container -> provide the left margin and right margin 
+17. container-fluid -> occupies the entire width
+breakpoints - xs, sm, md, lg, xl, xxl
+18. container-[breakpoints]
+
+19. row
+20. col 
+
+Each row will have 12 columns
+
+21. h1
+22. h2
+23. h3
+24. h4
+25. h5
+26. h6
+
+27. display-1
+28. display-2
+29. display-3
+30. display-4
+31. display-5
+32. display-6
+
+33. lead
+34. mark
+35. text-decoration-underline
+36. blockquote
+37. blockquote-footer
+
+38. rounded -> rounded borders
+39. img-thumbnail -> provide the border outside the image
+40. img-fluid -> Resposive
+
+41. table
+42. table-bordered
+43. table-borderless
+44. table-striped
+45. table-hover
+46. table-sm 
+47. table-[colors]
+
+48. form         
+49. form-label
+50. form-control
+51. form-check-input
+52. form-select
+53. input-group
+
+54. btn 
+55. btn-[colors]
+size=sm, md, lg, xl, xxl
+56. btn-[size]
+
+Margins
+
+num=0,1,2,3,4,5
+57. mt-[num] -> margin top
+58. mb-[num] -> margin bottom
+59. ms-[num] -> margin left
+60. me-[num] -> margin right
+61. mx-[num] -> margin left and right
+62. my-[num] -> margin top and bottom
+63. m-[num] -> margin on all sides
+
+Padding
+64. pt-[num] -> padding  top
+65. pb-[num] -> padding  bottom
+66. ps-[num] -> padding  left
+67. pe-[num] -> padding  right
+68. px-[num] -> padding  left and right
+69. py-[num] -> padding  top and bottom
+70. p-[num] -> padding on all sides
+
+71. navbar
+72. navbar-brand
+73. nav 
+74. nav-link

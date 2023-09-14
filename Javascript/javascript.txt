@@ -1,0 +1,67 @@
+JavaScript -> a programming language which is used to make static webpage as dynamic
+
+Initially known as LiveScript
+LiveScript -> by Netscape -< JavaScript
+
+JavaScript versions will be reffered as ES
+Latest ES9
+Mostly used version ES6
+most add on features are imtroduced in ES5 and ES6
+
+ES -> ECMAScript
+
+JavaScript is an interpreter software
+JavaScript is a loosly coupled language
+
+Ways to work with JavaScript
+
+    1. Internal Scripting -> In the same HTML document, script tags will be used
+
+    2. External Scripting -> Separate JS file, linked with script tag, src attribute
+
+Ways to display the output
+
+    1. alert("Message");
+    Output will be displayed in diaglog box
+
+    2. document.write("Message")
+    Output will be displayed on new page
+
+    3. document.getElementById("idName").innerHTML="Message"
+    Output wil be displayed on same screen
+
+    4. console.log("Message")
+    Output will be displayed in console
+
+JavaScript comments
+    single line comments //
+    multi line comments /* */
+
+JavaScript Keywords
+
+    1. var -> Global Scope -> accesible throughout the coding
+    2. let -> Local -> accesible only inside the specific block
+    3. const -> constant -> cannot be modified
+
+JavaScript Datatypes
+
+    1. strings -> include characters -> '' or "" or [Template literals]
+
+    2.Numbers -> includes both whole numbers and decimal numbers
+
+    3. Boolean -> True | False
+
+    4. null -> empty [valid value]
+
+    5. undefined -> value not defined yet
+
+JavaScript Functions
+
+Syntax 
+function functionName(argumnet){
+
+}
+
+By default, Every function will return the undefined. So that we can write two types of functions.
+    1. with argumnets
+    2. without argumnets

@@ -1,0 +1,30 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+   
+    border: 1px solid rgb(15, 14, 14);
+    
+}
+
+/* .container{
+    margin: 25px;
+    width: 40px;
+    height: 400px;
+    
+} */
