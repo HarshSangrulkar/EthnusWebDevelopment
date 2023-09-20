@@ -6,106 +6,123 @@ Bootstrap
 
 Ways to use bootstrap [bootstrap.css]
 1. Internet
-    CDN -> 
+    CDN -> content delivery network
 2. Your local device
     Downloading
     npm 
 
 class name 
 
-1. primary -> blue
-2. secondary -> gray
-3. success -> green
-4. warning -> yellow
-5. danger -> red
-6. info -> skyblue
-7. light -> white 
-8. dark -> black
+colors
+    1. primary -> blue
+    2. secondary -> gray
+    3. success -> green
+    4. warning -> yellow
+    5. danger -> red
+    6. info -> skyblue
+    7. light -> white 
+    8. dark -> black
 
-9. bg -> background
-10. text -> content 
+bg -> background
+text -> content 
 
-11. bg-[colors]
-12. text-[colors]
-13. text-center -> alignment in center horizontally
-14. text-start -> alignment in left 
-15. text-end -> alignment in right
+bg-[colors]
+text-[colors]
 
-16. container -> provide the left margin and right margin 
-17. container-fluid -> occupies the entire width
-breakpoints - xs, sm, md, lg, xl, xxl
-18. container-[breakpoints]
+text allignment
+    1. text-center -> alignment in center horizontally
+    2. text-start -> alignment in left 
+    3. text-end -> alignment in right
 
-19. row
-20. col 
+container -> provide the left margin and right margin 
+    1. container-fluid -> occupies the entire width
+
+    breakpoints - xs, sm, md, lg, xl, xxl
+    2. container-[breakpoints]
+
+row
+col 
 
 Each row will have 12 columns
 
-21. h1
-22. h2
-23. h3
-24. h4
-25. h5
-26. h6
+heading 
+    1. h1
+    2. h2
+    3. h3
+    4. h4
+    5. h5
+    6. h6
 
-27. display-1
-28. display-2
-29. display-3
-30. display-4
-31. display-5
-32. display-6
 
-33. lead
-34. mark
-35. text-decoration-underline
-36. blockquote
-37. blockquote-footer
+display
+    1. display-1
+    2. display-2
+    3. display-3
+    4. display-4
+    5. display-5
+    6. display-6
 
-38. rounded -> rounded borders
-39. img-thumbnail -> provide the border outside the image
-40. img-fluid -> Resposive
+text styles
+    1. lead
+    2. mark
+    3. text-decoration-underline
+    4. blockquote
+    5. blockquote-footer
 
-41. table
-42. table-bordered
-43. table-borderless
-44. table-striped
-45. table-hover
-46. table-sm 
-47. table-[colors]
 
-48. form         
-49. form-label
-50. form-control
-51. form-check-input
-52. form-select
-53. input-group
+Images
+    1. rounded -> rounded borders
+    2. img-thumbnail -> provide the border outside the image
+    3. img-fluid -> Resposive
 
-54. btn 
-55. btn-[colors]
-size=sm, md, lg, xl, xxl
-56. btn-[size]
+table
+    1. table
+    2. table-bordered
+    3. table-borderless
+    4. table-striped
+    5. table-hover
+    6. table-sm 
+    7. table-[colors]
 
-Margins
 
-num=0,1,2,3,4,5
-57. mt-[num] -> margin top
-58. mb-[num] -> margin bottom
-59. ms-[num] -> margin left
-60. me-[num] -> margin right
-61. mx-[num] -> margin left and right
-62. my-[num] -> margin top and bottom
-63. m-[num] -> margin on all sides
+form
+    1. form         
+    2. form-label (for labels)
+    3. form-control (for inputs)
+    4. form-check-input
+    5. form-select
+    6. input-group (for the div)
+
+
+buttons
+    1. btn 
+    2. btn-[colors]
+    3. btn-[size]  size=sm, md, lg, xl, xxl
+
+
+Margins 
+    num=0,1,2,3,4,5, auto
+    1. mt-[num] -> margin top
+    2. mb-[num] -> margin bottom
+    3. ms-[num] -> margin left
+    4. me-[num] -> margin right
+    5. mx-[num] -> margin left and right
+    6. my-[num] -> margin top and bottom
+    7. m-[num] -> margin on all sides
 
 Padding
-64. pt-[num] -> padding  top
-65. pb-[num] -> padding  bottom
-66. ps-[num] -> padding  left
-67. pe-[num] -> padding  right
-68. px-[num] -> padding  left and right
-69. py-[num] -> padding  top and bottom
-70. p-[num] -> padding on all sides
+    num=0,1,2,3,4,5, auto
+    1. pt-[num] -> padding  top
+    2. pb-[num] -> padding  bottom
+    3. ps-[num] -> padding  left
+    4. pe-[num] -> padding  right
+    5. px-[num] -> padding  left and right
+    6. py-[num] -> padding  top and bottom
+    7. p-[num] -> padding on all sides
 
-71. navbar
-72. navbar-brand
-73. nav 
-74. nav-link
+
+navigation bar
+    1. navbar
+    2. navbar-brand (comes to the left of the navbar)
+    3. nav (get output inline)
+    4. nav-link (navigation links, removes undeline from links)
