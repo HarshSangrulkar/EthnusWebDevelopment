@@ -1,67 +1,313 @@
-JavaScript -> a programming language which is used to make static webpage as dynamic
+Javascript is programming language
+used to make the static webpages as dynamic
+LiveScript -> by Netscape -> Javascript
+Javascript versions will be referred as ES
+Latest ES9. Mostly used version ES6
+Most add on features are introduced in ES5 and ES6
+ES-> ECMAScript
+Javascript is a interpreter software
+Javascript is a loosely coupled language 
 
-Initially known as LiveScript
-LiveScript -> by Netscape -< JavaScript
 
-JavaScript versions will be reffered as ES
-Latest ES9
-Mostly used version ES6
-most add on features are imtroduced in ES5 and ES6
-
-ES -> ECMAScript
-
-JavaScript is an interpreter software
-JavaScript is a loosly coupled language
-
-Ways to work with JavaScript
-
-    1. Internal Scripting -> In the same HTML document, script tags will be used
-
-    2. External Scripting -> Separate JS file, linked with script tag, src attribute
+Ways to work with Javascript
+    1. Internal scripting -> In the same HTML document, script tags
+    2. External scripting -> Separate JS file, linked with script tag src attribute
 
 Ways to display the output
+    1. alert("Message");       
+        The output will be display in dialog box
+    2. document.write("Message");
+        The output will be display in new page
+    3. document.getElementById("idName").innerHTML = "Message";
+        The output will be display in same page
+    4. console.log("Message");
+        The output will be display in console window
 
-    1. alert("Message");
-    Output will be displayed in diaglog box
+Javascript comments
+1. Single line comment - //
+2. Multi-line comments - /* */
 
-    2. document.write("Message")
-    Output will be displayed on new page
+Javascript variables
+Syntax for JS variables 
+keyword varName = value;
 
-    3. document.getElementById("idName").innerHTML="Message"
-    Output wil be displayed on same screen
+varName are user-defined starts with letters
 
-    4. console.log("Message")
-    Output will be displayed in console
+Keywords
+    1. var   -> Global -> accessible throughout the coding
+    2. let   -> Local  -> accessible only inside the specific block
+    3. const -> constant -> It cannot be modified
 
-JavaScript comments
-    single line comments //
-    multi line comments /* */
 
-JavaScript Keywords
+Javascript datatypes
+    1. String -> includes characters -> '' or "" or ``[Template literals]
+    2. Numbers -> includes both whole numbers and decimal numbers
+    3. Boolean -> true or false
+    4. null    -> Empty [valid value]
+    5. undefined -> Not defined the value yet
 
-    1. var -> Global Scope -> accesible throughout the coding
-    2. let -> Local -> accesible only inside the specific block
-    3. const -> constant -> cannot be modified
 
-JavaScript Datatypes
-
-    1. strings -> include characters -> '' or "" or [Template literals]
-
-    2.Numbers -> includes both whole numbers and decimal numbers
-
-    3. Boolean -> True | False
-
-    4. null -> empty [valid value]
-
-    5. undefined -> value not defined yet
-
-JavaScript Functions
+Javascript functions
 
 Syntax 
-function functionName(argumnet){
+function functionName(arguments)
+{
 
 }
 
-By default, Every function will return the undefined. So that we can write two types of functions.
-    1. with argumnets
-    2. without argumnets
+By default, every function will return the undefined.
+So that we can write two types of functions
+    1. With arguments
+    2. Without arguments 
+
+ACCESSING ELEMENTS
+
+    1. getElementById()
+
+        let para = document.getElementById('intro');
+        console.log(para);
+
+    2. querySelector()
+
+        Accessing class - use (dot). before 
+        let list = document.querySelector('.lists');
+        console.log(list);
+
+        Accessging id - use # before
+        let heading = document.querySelector('#heading');
+        console.log(heading)
+
+        Accessing by Tag name
+        let img = document.querySelector('img');
+        console.log(img);
+
+READ ELEMENTS
+
+    1. textContent - read contents of webpage
+
+    let para = document.getElementById('intro');
+    let p = para.textContent; 
+    console.log(p);
+
+    2. innerHTML - read contents of html
+
+    let lists = document.querySelector('.lists');
+    let l = lists.innerHTML;
+    console.log(l);
+
+    3. password
+
+    var pwd = document.getElementById("i1").value;
+
+
+MODIFY ELEMENTS
+
+    1.modifying contents of webpage
+
+        document.getElementById('dynamicContent').textContent = 'This is a dynamically generated paragraph';
+
+    2.modifying contents of html
+
+        document.getElementById("output").innerHTML = `<p class="alert alert-danger">Invalid username or password<p>`;
+
+
+EVENTS
+
+    1. onclick  -> normal button is clicked
+
+    <form onclick="abc()">
+        <button>click</button>
+    </form>
+
+    2. onsubmit -> submit button is clicked 
+
+    <form onsubmit="abc()">
+       <button type="submit">click</button>
+    </form>
+
+    3. onfocus  -> when you keep the I beam in the input field
+
+    <input onfocus="abc()" />
+
+    4. onblur   -> when you click somewhere on the  screen except input field
+
+    <input onblur="abc()" />
+
+    5. onmouseover -> on hovering
+
+    6. onchange -> When there is a change in input field 
+
+    7. onkeyup -> When an key is pressed keyup
+
+JAVASCRIPT OPERATORS
+
+a. Unary operators
+    1. Increment operators -> pre[++a] and post[a++]
+    2. Decrement operators -> pre[--a] and post[a--]
+
+b. Binary operators
+    1. Arithmetic operators -> +, - , *, /, %
+    2. Assignment operators -> =, +=, -= , *=, /= , %=
+    3. Relational operators -> <, >, <=, >=, ==, !=, ===
+    4. Logical operators -> &&, ||, !
+    5. Bitwise operators -> &, |, ~, ^
+    6. Shift operators  -> <<, >>
+
+c. Ternary operators -> ?:
+
+JAVASCRIPT CONDITIONAL STATEMENTS
+
+1. Simple if
+2. if else
+3. else if
+4. if ladder
+5. nested if 
+6. switch 
+
+JAVASCRIPT LOOPING STATEMENTS 
+
+1. for loops
+2. for of loops
+3. for in loops
+4. forEach loops 
+5. while loops 
+6. do while loops 
+
+JAVASCRIPT LOOP CONTROL STATEMENTS
+
+1. break
+2. continue
+
+JAVASCRIPT OBJECTS
+
+key and value pair. 
+
+1. Object literal 
+2. new keyword 
+
+NORMAL FUNCTION
+function abc()
+{
+
+}
+
+//Storing a function as a variable
+const abc = function () {
+
+}
+
+ARROW FUNCTION 
+const abc = () => {}
+
+eg: normal function
+function lmn(a){
+    console.log(a)
+}
+
+const lmn = function(a){
+    console.log(a)
+}
+
+eg: arrow function
+const lmn = (a) => {console.log(a)}
+
+
+
+CALLBACK FUNCTIONS  
+A function which accepts another function as an arguments
+
+JAVASCRIPT ARRAYS
+
+    1. Array literal 
+    2. new keyword 
+    3. Array constructor 
+
+ARRAY METHODS
+
+    1. concat -> arr1.concat(arr2); -> It doesn't changes the original array
+    2. every -> arr1.every(callbackfn)
+    3. filter -> arr1.filter(callbackfn)
+    4. find -> arr1.find(callbackfn)
+    5. findIndex -> arr1.findIndex(callbackfn)
+    6. indexOf -> arr1.indexOf(element);
+    7. lastIndexOf -> arr1.lastIndexOf(element)
+    8. some -> arr1.some(callbackfn)
+    9. map -> arr1.map((val)=>{})
+    10. push -> arr1.push(element);
+    11. slice -> arr1.slice(fromIndex, toIndex)
+
+
+
+BOM -> Browser object model 
+                Window 
+                   |
+    history  navigator screen location document 
+    
+History objects:
+    1. back()
+    2. forward()
+
+navigator objects:
+    1. appName
+    2. appVersion
+    3. platform
+    4. cookiesEnabled
+    5. language 
+
+screen objects:
+    1. availHeight
+    2. availWidth
+    3. height
+    4. width 
+    5. colorDepth
+    6. pixelDepth -> 2^8 + 2^8 + 2^8 => 16 million
+
+location objects:
+    1. assign("url")
+    2. replace("url")
+    3. reload()
+
+document objects: 
+    1. write("Text")
+    2. writeln("Text with spaces")
+    3. getElementById("idName")
+    4. getElementsByClassName("className")
+    5. getElementsByName("name")
+    6. getElementsByTagName("tagName")
+    7. innerHTML -> accepts the HTML tags 
+    8. innerText -> accepts everything as normal text 
+
+Javascript classes 
+Syntax:
+class className
+{
+    varName = value;
+    methodName()
+    {
+
+    }
+}
+
+const obj = new className();
+
+Javascript promises
+
+Async
+callback function 
+
+....
+    ....
+        ....
+            ....
+                ....
+                    .....
+Callback hell
+ -> Control over program will not given to you 
+ -> Readability
+
+Promises having three stages [work with async function]
+    1. pending
+    2. fullfilled [resolved] [.then -> success]
+    3. rejected  [rejected] [.catch -> failure]
+
+Fetch api  -> return a promise to you 

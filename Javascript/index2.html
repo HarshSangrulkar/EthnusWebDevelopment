@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <center>
+        <form action="https://www.ethnus.com" class="form m-5" onsubmit="return validate()">
+            <table>
+                <tr>
+                    <td class="text-center"><h1>Gmail Login</h1></td>
+                </tr>
+                <tr>
+                    <td><p id="output"></p></td>
+                </tr>
+                <tr>
+                    <td><input id="i1" class="form-control my-2" type="text" placeholder="Username" required/></td>
+                </tr>
+                <tr>
+                    <td><input id="i2" class="form-control my-2" type="password" placeholder="Password" required/></td>
+                </tr>
+                <tr>
+                    <td class="text-center"><button type="submit" class="btn btn-primary">Login</button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+    <script>
+        function validate(){
+            var un = document.getElementById("i1").value;
+            var pwd = document.getElementById("i2").value;
+            if(un.length < 5 || pwd.length < 5)
+            {
+                document.getElementById("output").innerHTML = `<p class="alert alert-danger">Invalid username or password<p>`;
+                return false;
+            }
+            return true;
+        }
+    </script>
+   
+   
+
+
+</body>
+
+
+</html>
+
+
+
+
+

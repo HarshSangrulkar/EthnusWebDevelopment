@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p class="c1">Hello</p>
+    <p name="n1">Hello</p>
+    <p>Hello</p>
+    <p class="c1" name="n1">Hello</p>
+    <p>Hello</p>
+    <p class="c1">Hello</p>
+    <p name="n1">Hello</p>
+    <p class="c1" name="n1">Hello</p>
+    <p class="c1">Hello</p>
+
+    <script>
+        document.getElementById("i1").innerHTML = "<h1>ID</h1>";
+        document.getElementById("i2").innerText = "<h1>ID</h1>";
+
+        alert("Total # of element having className as c1 is: "+ 
+                document.getElementsByClassName("c1").length);
+        
+        alert("Total # of element having name as n1 is: "+ 
+                document.getElementsByName("n1").length);
+
+       alert("Total # of element having tagName as p is: "+ 
+                document.getElementsByTagName("p").length);
+    </script>
+</body>
+</html>

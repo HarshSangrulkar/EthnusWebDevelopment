@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 6</title>
+</head>
+<body>
+    
+    <script>
+        //1. Object literal
+        const obj1 = {name:"Raj", age: 21, degree: "B.E"};
+        
+        console.log(obj1.name);
+        console.log(obj1["name"]);
+
+        // for in loop is used get the property of the object
+        for(let x in obj1)
+        {
+            console.log(x); //name, age, degree
+        }
+
+        // print the value of an object 
+        for(let x in obj1)
+        {
+            console.log(obj1[x]); //Raj, 21, B.E
+        }
+
+
+        //2. new keyword 
+        const obj2 = new Date();
+        console.log(obj2.getDate()); //16
+        console.log(obj2.getDay());  //6 [0-Sunday 6-Saturday]
+        console.log(obj2.getHours()); //10
+        console.log(obj2.getMinutes()); //26
+        console.log(obj2.getMonth()); //8 [0-Jan 11-Dec]
+        console.log(obj2.getSeconds()); //
+
+        
+
+
+    </script>
+</body>
+</html>

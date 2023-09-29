@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 4</title>
+</head>
+<body>
+    <script>
+        console.log("Unary operators");
+        console.log("Increment operator");
+        let a = 10;
+        console.log(a++); //10 
+        console.log(a); //11
+        console.log(++a); //12 
+        console.log(a); //12
+
+        console.log("Decrement operator");
+        let b = 15;
+        console.log(b--); //15 //b=14
+        console.log(b); //14
+        console.log(--b); //13 
+        console.log(b); //13
+
+        console.log("Binary opertors");
+        console.log("Arithmetic operators");
+        let c = 10;
+        let d = 3;
+        console.log(c+d); //13
+        console.log(c-d); //7
+        console.log(c*d); //30
+        console.log(c/d); //3.33333
+        console.log(c%d); //1
+        d=0;
+        console.log(c/d); //10/0 => Infinity
+
+        console.log("Assignment operator");
+        let e = 5;
+        let f = 3;
+        console.log(e+=f); //e = e+f => e = 5+3 => e=8   //8
+        console.log(e-=f); //e = e-f => e = 8-3 => e=5  //5
+        console.log(e*=f); //e = e*f => e = 5*3 => e=15 //15
+        console.log(e%=f); //e = e%f => e = 33%3 => e=0  //0
+        console.log(e/=f); //e = e/f => e = 0/3 =>  e=0  //0
+
+        console.log("Relational operators");
+        let g = 10;
+        let h = 20;
+        console.log(g<h); //true
+        console.log(g>h); //false
+        console.log(g<=h); //true
+        console.log(g>=h); //false
+        console.log(g==h); //false
+        console.log(g!=h); //true
+        h="10";
+        console.log(g==h); //Is the value of g and h same? //true
+        console.log(g===h); //Is the value and type of g and g same? //false
+
+        console.log("Logical operators");
+        let i = true;
+        let j = false;
+        console.log(i && j); //false
+        console.log(i || j); //true
+        console.log(!(i));   //false
+
+        console.log("Bitwise operators");
+        let m = 7;
+        let n = 5;
+        console.log(m&n); //5
+        /*
+        7 -> 1 1 1
+        5 -> 1 0 1  (&)
+        --------------
+             1 0 1 -> 5
+        ----------------  
+        */
+        console.log(m|n); //7
+        /*
+        7 -> 1 1 1
+        5 -> 1 0 1  (|)
+        --------------
+             1 1 1 -> 7
+        ----------------  
+        */
+        console.log(~m); //-8
+        /* Increment the value by 1 and add negative symbol -> -8 */
+
+        console.log(m^n); //2
+        /*
+        7 -> 1 1 1
+        5 -> 1 0 1  (^)(XOR)
+        --------------
+             0 1 0 -> 2
+        ----------------  
+        */
+
+        console.log("Shift operators");
+        let p = 10;
+        let q = 3;
+        console.log(p<<q); //80
+        /*
+        Left shift formula: a*2^b
+        10*(2^3) => 10*8 => 80
+        */
+       
+        console.log(p>>q); //1
+        /*
+        Right shift formula: a/2^b 
+        10/(2^3) => 10/8 => 1
+        */ 
+
+        console.log("Ternary operator");
+        console.log((30<40)?"Hello":"Bye");
+    </script>
+</body>
+</html>
