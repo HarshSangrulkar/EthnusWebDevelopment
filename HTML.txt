@@ -108,6 +108,7 @@ DAY - 2
 
 form 
     label
+    eg: <label type = "text">
     SINGLE LINE INPUT
         Attributes
             1. text
